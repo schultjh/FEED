@@ -1,0 +1,120 @@
+video {
+	top:0;
+	left:0;
+	max-width:100%;
+}
+.container {
+	font-family: 'Carrois Gothic', sans-serif;
+}
+section {
+	padding-top: 20px;
+	font-size:20px;	
+}
+.deck{
+	margin-top:6%;
+	margin-bottom:8%;
+}
+.deck .container{
+	font-family: 'Brawler', serif;
+	font-size: 35px;
+	line-height:125%;
+}
+.byline{
+	font-size:20px;
+	color:gray;
+}
+.robbins, .kestel {
+	background-color: #E5D77D;
+	box-shadow: 2px 2px 5px #999;
+	color: black;
+}
+.wilson, .stas {
+	background-color: #CFCFD2;
+	box-shadow: 2px 2px 5px #999;
+	color:black;
+}
+.stas{
+	margin-bottom: 5%;
+}
+.sectionHed{
+	position: relative;
+	margin-bottom:0;
+}
+.wilson .title, .robbins .title {
+	position: absolute;
+	bottom:0;
+	right:5%;
+	font-size: 7em;
+	color: white;
+	text-align: left;
+	font-weight:900;
+	font-family: 'Brawler', serif;
+	
+}
+.kestel .title, .stas .title{
+	position: absolute;
+	bottom:0;
+	left:5%;
+	font-size: 7em;
+	color: white;
+	text-align: right;
+	font-weight:900;
+	font-family: 'Brawler', serif;
+}
+#wilsonTitle{
+	top:0;
+}
+#kestelTitle{
+	line-height:0;
+}
+.firstWord{
+	margin-bottom:8%;
+}
+.thirdWord{
+	margin-left:-2%;
+}
+.fourthWord{
+	margin-top:-6%;
+}
+.kestel .firstWord{
+	margin-bottom:14%;
+}
+.stas .thirdWord{
+	margin-left:2%;
+}
+.title .firstWord, .title .thirdWord{
+	font-size: .4em;
+}
+.leadText{
+	font-size:26px;
+	margin-top: 2%;
+	font-weight:400;
+}
+.unlikelyMarriage .leadText, .unstableUnion .leadText, .unsatisfiedPartner .leadText{
+	margin-top:-1%;
+	}
+.leadPhoto{
+	max-width:100%;
+	margin-top:-2%;
+}
+.titleInfo{
+	font-family: 'Brawler', serif;
+	font-size:4em;
+	text-align: center;
+}
+#lastPhoto{
+	margin-bottom:4%;
+}
+blockquote{
+	font-size: 34px;
+	font-family: 'Brawler', serif;
+	line-height:125%;
+	border-left: none;
+}
+.belowPhoto{
+	margin-top:2%;
+}
+#lastPhoto{
+	margin-top:10%;
+	margin-left:40%;
+}
