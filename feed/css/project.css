@@ -2,6 +2,7 @@ video {
 	top:0;
 	left:0;
 	max-width:100%;
+	margin-top:-3%;
 }
 .container {
 	font-family: 'Carrois Gothic', sans-serif;
