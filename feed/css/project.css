@@ -1,8 +1,15 @@
+html, body{
+	width:100%;	
+}
+.preview {
+padding-top: 56px;
+}
 video {
 	top:0;
 	left:0;
 	max-width:100%;
 	margin-top:-3%;
+	width:100%;
 }
 .container {
 	font-family: 'Carrois Gothic', sans-serif;
@@ -41,7 +48,7 @@ section {
 	position: relative;
 	margin-bottom:0;
 }
-.wilson .title, .robbins .title {
+.robbins .title {
 	position: absolute;
 	bottom:0;
 	right:5%;
@@ -52,44 +59,33 @@ section {
 	font-family: 'Brawler', serif;
 	
 }
-.kestel .title, .stas .title{
+.kestel .title, .stas .title, .wilson .title{
 	position: absolute;
 	bottom:0;
 	left:5%;
 	font-size: 7em;
 	color: white;
-	text-align: right;
+	text-align: left;
 	font-weight:900;
 	font-family: 'Brawler', serif;
+
 }
-#wilsonTitle{
-	top:0;
-}
-#kestelTitle{
-	line-height:0;
-}
-.firstWord{
-	margin-bottom:8%;
-}
-.thirdWord{
-	margin-left:-2%;
+.firstWord, .thirdWord{
+	font-size:.4em;
 }
 .fourthWord{
+	margin-top:-8%;
+}
+.stas .thirdWord {
+	margin-left: 5%;
+}
+.wilson .fourthWord, .robbins .fourthWord{
 	margin-top:-6%;
-}
-.kestel .firstWord{
-	margin-bottom:14%;
-}
-.stas .thirdWord{
-	margin-left:2%;
-}
-.title .firstWord, .title .thirdWord{
-	font-size: .4em;
-}
+	}
 .leadText{
 	font-size:26px;
 	margin-top: 2%;
-	font-weight:400;
+	font-weight:600;
 	line-height:125%;
 }
 .unlikelyMarriage .leadText, .unstableUnion .leadText, .unsatisfiedPartner .leadText{
@@ -98,14 +94,12 @@ section {
 .leadPhoto{
 	max-width:100%;
 	margin-top:-2%;
+	width:100%;
 }
 .titleInfo{
 	font-family: 'Brawler', serif;
 	font-size:4em;
 	text-align: center;
-}
-#lastPhoto{
-	margin-bottom:4%;
 }
 blockquote{
 	font-size: 34px;
@@ -113,17 +107,12 @@ blockquote{
 	line-height:125%;
 	border-left: none;
 }
+.bQuoteAttr{
+	font-size: 24px;
+}
 .belowPhoto{
 	margin-top:2%;
-}
-#lastPhoto{
-	margin-top:10%;
-	margin-left:40%;
 }
 .last{
 	margin-bottom:10%;
 }	
-
-.preview {
-padding-top: 56px;
-}
